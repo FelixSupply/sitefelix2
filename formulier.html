@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+        <link rel="stylesheet" href="styles.css">
+		<title>Formulieren zomerkamp</title>
+		
+	</head>
+	
+	<body>
+        <div class="container">
+            <div class="navbar">
+                <img src="fotos/hoed.svg" class="logo">
+                <nav>
+                    <ul>
+                        <li><a class="klein" href="index.html">HOME</a></li>
+                        <li><a class="klein" href="formulier.html">FORMULIER</a></li>
+                        <li><a class="klein" href="biografie.html">BIOGRAFIE</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <h1 style="color: #fff;">Inschrijvingsformulier</h1>
+            <div class="formulierhokje">
+		<form action="toon_waarden_post.php" method="post" >
+			
+
+        	<p style="font-weight: bolder";>Voornaam : <input type="text" name="voornaam" /></p>
+        	
+			<p style="font-weight: bolder";>Achternaam : <input type="text" name="achternaam" /></p>
+			
+			<p style="font-weight: bolder";>Leeftijd : <input type="text" name="leeftijd" /></p>
+            <br>
+
+			<p style="font-weight: bolder";>Genderidentiteit: 
+			<select name="Ban">
+				<option>Man</option>
+				<option>Vrouw</option>
+				<option>Overig</option>
+			</select>
+			</p>
+			<br>
+			<p style="font-weight: bolder";> Welk speelpakket kies je?: </p>
+			<P><input type="checkbox" name="saai" value="1" />Ik wil een saai kamp</p>
+			<P><input type="checkbox" name="spetterend" value="2" />Ik wil een spetterend kamp</p>
+			<P><input type="checkbox" name="avontuurlijk" value="3" />Ik wil een avontuurlijk kamp</p>
+			<P><input type="checkbox" name="wild" value="4" />Ik wil een wild kamp</p>
+			
+			<br>
+            <br>
+			
+			<p style="font-weight: bolder";>Moeten we nog iets extra weten over jou?: </p>
+			<p><textarea name="commentaar" rows="5" cols="40" ></textarea>
+			<p><input class="button" type="submit" name="verzend" value="Verzend formulier" /></p>
+        
+        </form>
+     </div>
+		
+				
+		
+	</div>
+	</body>	
+	
+</html>
+
+<body style="background-color: #cbcdce;">
+    <!-- Inhoud van je website -->
+</body>
